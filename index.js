@@ -1,8 +1,8 @@
 /* Refer to https://github.com/OleksiyRudenko/a-tiny-JS-world for the task details
    Complete the below for code reviewers' convenience:
 
-   Code repository: _put repo URL here_
-   Web app: _put project's github pages URL here_
+   Code repository: _https://github.com/Nik3264/a-tiny-JS-world_
+   Web app: _https://nik3264.github.io/a-tiny-JS-world/_
    */
 
 // ======== OBJECTS DEFINITIONS ========
@@ -55,7 +55,8 @@ const dog = {
   el.name=`<strong>${el.name}</strong>`;
    return Object.values(el).join(', ');
  });
- //console.log(str.join(";  "));
+ print(str.join(";\n"));
+ 
 // ======== OUTPUT ========
 /* Use print(message) for output.
    Default tag for message is <pre>. Use print(message,'div') to change containing element tag.
@@ -74,5 +75,5 @@ const dog = {
    print('human; <strong>John</strong>; male; 2; 2; <em>Hello world!</em>; Rex, Tom, Jenny');
    print('human; <strong>John</strong>; male; 2; 2; <em>Hello world!</em>; Rex, Tom, Jenny', 'div');
 */
-print(str.join(";\n"));
+
 
